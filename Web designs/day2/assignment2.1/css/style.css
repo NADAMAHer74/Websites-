@@ -1,0 +1,58 @@
+
+.wedding{
+background-image: url(../wed.jpg);
+background-size: cover;
+background-attachment: fixed;
+text-align: center;
+align-items: center;
+justify-content: center;
+padding: 100px;
+color: #ffffff;
+
+
+}
+
+.all{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.flo{
+    background-image: url(../flow.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 480px;
+    color: #ffffff;
+    margin: 20px;
+
+
+}
+
+.hal{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn1{
+    background-color: #0f0e0e;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+
+}
+.b2{
+    background-color: rgb(227, 120, 154);
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 15px;
+    width: 150px;
+    border:rgb(227, 120, 154) ;
+    
+}

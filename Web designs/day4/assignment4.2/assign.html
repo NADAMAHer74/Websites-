@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />            
+
+<style>
+    .top{
+        float: left;
+        display: block;
+        background-color: rgb(200, 197, 197);
+
+    }
+    .top i{
+        color: #7C4700;
+        
+    }
+
+
+ .nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f6f5f5;
+  text-align: right;
+ 
+}
+
+.nav li {
+    display: inline-block;
+
+  
+}
+
+.nav a {
+  display: block;
+  color: rgb(23, 23, 23);
+  text-align: center;
+  padding: 4px ;
+  text-decoration: none;
+}
+a.active {
+  color: #7C4700;
+}
+
+
+.back{
+ background-image: url(carousel-3.jpg);
+ /* opacity: 0.8 ; */
+background-size: cover;
+text-align: left;
+align-items: center;
+justify-content: center;
+padding: 200px;
+color: white;
+
+}
+.btn1{
+    width: 100px;
+    height: 40px;
+    border: none;
+    
+    
+}
+
+.wood{
+    position: relative;
+    margin-top: 80px;
+    background-color: rgb(233, 231, 231);
+}
+.wood img{
+    float: left;
+    max-width: 300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+ 
+}
+
+.row {margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  
+}
+h3{
+    color: #955604;
+}
+
+.gout{
+    position: relative;
+    margin: 100px;
+    background-color:#f7f5f5 ;
+    padding: 50px;
+}
+.gout img{
+    float: left;
+    max-width: 400px;
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #955604;
+  color: white;
+  border: none;
+  width: 50%;
+  padding: 10px;
+}
+
+  
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+<!-- 
+    <div class="top">
+
+    <i class='fa-solid fa-location-dot'></i>
+    <h3>123 Street, New York, USA</h3>
+
+    <i class="fa fa-clock-o" aria-hidden="true"></i>
+    <h3 style="margin-right: 100px;">Mon- Fri: 09.00 AM - 09 PM</h3>
+
+    <i class="fas fa-phone"></i>
+    <h4>+0123456789</h3>
+
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+    <i class="fa-brands fa-instagram"></i>
+
+</div> -->
+<table>
+    <tr>
+        <th rowspan="6">
+            <i class='fa-solid fa-location-dot'></i>
+            123 Street, New York, USA
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+             Mon- Fri: 09.00 AM - 09 PM
+
+        </th>
+        <th style="justify-content: end;">
+            <i class="fas fa-phone"></i>
+            +0123456789
+                
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+    <i class="fa-brands fa-instagram"></i>
+
+
+        </th>
+      </tr>
+      <tr>
+</table>
+
+<div class="nav">    
+    <ul>
+
+<li><a class="active" href="#">Home</a></li>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">SERVICEC</a></li>
+<li><a href="#">PROJECT</a></li>
+
+   <li> <button class="dropbtn" style="margin: 0;">Pages
+         <i class="fa fa-caret-down"></i>
+    </button></li>
+<li><a href="#">Contact</a></li>
+<li style="background-color: #955604; font-size: 20px;  "><a style="color: white; "  href="#">Get A Quote-></a></li>
+
+<h2 style=" float: left; color: #955604; ">WooDY</h2>
+
+</ul>
+</div>
+
+<div class="back">
+    <p> WELCOME TO WOODY</p>
+    <b style="font-size: 50px;">Best Carpenter & Craftsman</b>
+    <h2 style="font-size: 50px;">Services</h2>
+    <pre style="font-size: 20px;">Vero elitr clita lorem. Ipusm dolor at sed stet sit diam no. Kasd rebum ipusm et Diam
+                                       justo clita kasd redum sea eltit.
+    </pre>
+
+    <button style="background-color: #955604; color: white;" class="btn1" type="button">Read More</button>
+<button style="background-color: white;" class="btn1" type="button">Free Quote</button>
+</div>
+
+<!-- <table  style="margin-top: 80px;">
+<tr>
+    <th ></th>
+    <th>Age</th>
+  </tr> -->
+  <!-- <tr>
+    <th colspan="2">Creative Designers
+    </th>
+    <th>Quality Products
+    </th>
+    <th>Free Consultation
+    </th>
+    <th>Customer Support
+    </th>
+  </tr>
+</table> -->
+
+
+
+    <div class="wood">
+        <img src="about.jpg">
+        <div style="margin-left:100px;">
+        <b>About Us</b>
+<pre>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+     diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat
+      amet</pre>
+
+      <table>
+        <tr>
+            <th> 1234</th>      
+            <th> 1234</th>
+        </tr>
+
+        <tr> 
+            <td style="margin-right: 20px; color: #955604;">Happy Clients
+            </td>
+            <td>Projects Done
+            </td>
+        </tr>
+      </table>
+      <button style="background-color: #955604; color: white;" class="btn1" type="button">Explore More</button>
+
+
+    </div>
+</div>
+
+<div style="margin-top: 200px; text-align: center;">
+<b style="font-size: 50px; "> __Our Service__</b>
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <img style="max-width: 300px;" src="service-1.jpg">
+        <div class="container">
+            <h2>General Carpentry</h2>
+            <pre>Stet stet justo dolor sed duo. Ut clita sea sit 
+                ipsum diam lorem diam.</pre>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img style="max-width: 300px;" src="service-2.jpg">
+        <div class="container">
+            <h2>Furniture Manufacturing</h2>
+            <pre> Stet stet justo dolor sed duo. Ut clita sea sit
+                 ipsum diam lorem diam.
+            </pre>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img style="max-width: 300px;" src="service-3.jpg">
+        <div class="container">
+            <h2>Furniture Remodeling</h2>
+            <pre>Stet stet justo dolor sed duo. Ut clita sea sit 
+                          ipsum diam lorem diam.
+            </pre>
+
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+<div style="margin-top: 50px;" class="row">
+    <div class="column">
+      <div class="card">
+        <img style="max-width: 300px;" src="service-4.jpg">
+        <div class="container">
+            <h2>Wooden Floor
+            </h2>
+            <pre>Stet stet justo dolor sed duo. Ut clita sea sit 
+                ipsum diam lorem diam.</pre>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img style="max-width: 300px;" src="service-5.jpg">
+        <div class="container">
+            <h2>Wooden Furniture
+            </h2>
+            <pre> Stet stet justo dolor sed duo. Ut clita sea sit
+                 ipsum diam lorem diam.
+            </pre>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img style="max-width: 300px;" src="service-6.jpg">
+        <div class="container">
+            <h2>Custom Work
+            </h2>
+            <pre>Stet stet justo dolor sed duo. Ut clita sea sit 
+                          ipsum diam lorem diam.
+            </pre>
+
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div >
+    <div class="wood">
+        <img style="float: right;" src="feature.jpg">
+        <b>Why Choose Us</b>
+<pre>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+     diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat
+      amet</pre>
+
+      <table>
+
+        <tr>
+            <td>Quality</td>
+            <td>Creative</td>
+
+        </tr>
+        <tr>
+            <th> Services</th>      
+            <th> Designers</th>
+        </tr>
+
+        <tr > 
+            <td>Free</td>
+            <td>Customer</td>
+        </tr>
+
+        <tr>
+            <th> Consultation</th>      
+            <th> Support</th>
+        </tr>
+            
+      </table>
+     
+    </div>
+</div>
+
+
+
+<div style="margin-top: 190px; text-align: center;">
+    <b style="font-size: 50px; "> __Our Projects__</b>
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <img style="max-width: 300px;" src="service-1.jpg">
+        <div class="container">
+            <h3>General Carpentry</h3>
+            <pre>Wooden Furniture Manufacturing And 
+                Remodeling</pre>
+
+        </div>
+      </div>
+    </div>
+
+<div class="column">
+    <div class="card">
+      <img style="max-width: 300px;" src="service-2.jpg">
+      <div class="container">
+          <h3>Custom Carpentry
+        </h3>
+          <pre> Wooden Furniture Manufacturing And 
+                Remodeling
+          </pre>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img style="max-width: 300px;" src="service-3.jpg">
+      <div class="container">
+          <h3>General Carpentr
+        </h3>
+          <pre>Wooden Furniture Manufacturing And 
+                Remodeling
+          </pre>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div style="margin-top: 50px;" class="row">
+  <div class="column">
+    <div class="card">
+      <img style="max-width: 300px;" src="service-4.jpg">
+      <div class="container">
+          <h3>Custom Carpentry
+          </h3>
+          <pre>Wooden Furniture Manufacturing And 
+            Remodeling</pre>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img style="max-width: 300px;" src="service-5.jpg">
+      <div class="container">
+          <h3> General Carpentry
+          </h3>
+          <pre> Wooden Furniture Manufacturing And 
+            Remodeling
+          </pre>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img style="max-width: 300px;" src="service-6.jpg">
+      <div class="container">
+          <h3>Custom Carpentry
+          </h3>
+          <pre>Wooden Furniture Manufacturing And 
+            Remodeling
+          </pre>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="gout">
+
+    <img src="goute.jpg">
+<form>
+    <input type="text" value="Your Name">
+    <input  type="text" value="Your Email"><br>
+    <input type="text" value="Your Mobile">
+    <select >  <option > Select A SERVICEC</option></select> <br>
+    <textarea  rows="4" cols="50">
+
+    </textarea><br>
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+
+    
+<div style="margin-top: 190px; text-align: center;">
+    <b style="font-size: 50px; "> __Team Members__</b>
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <img style="max-width: 300px;" src="team-1.jpg">
+        <div class="container">
+            <h2>Full Name</h2>
+            <p>Designers</p>
+
+        </div>
+      </div>
+    </div>
+
+<div class="column">
+    <div class="card">
+      <img style="max-width: 300px;" src="team-2.jpg">
+      <div class="container">
+        <h2>Full Name</h2>
+        <p>Designers</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img style="max-width: 300px;" src="team-3.jpg">
+      <div class="container">
+        <h2>Full Name</h2>
+            <p>Designers</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img style="max-width: 300px;" src="team-4.jpg">
+      <div class="container">
+        <h2>Full Name</h2>
+            <p>Designers</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
